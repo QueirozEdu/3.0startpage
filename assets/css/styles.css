@@ -1,0 +1,17 @@
+:root {
+    --main-bg-color: #101041;
+    --main-text-color: #d9e0ee;
+    --link-color: #8f9191;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: var(--link-color)
+    
+}
+
+.content {
+    background-color: var(--main-bg-color);
+    width: 100vw;
+    height: 100vh;
+}
